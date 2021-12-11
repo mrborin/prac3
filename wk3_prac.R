@@ -51,7 +51,7 @@ listfiles
 worldclimtemp <- listfiles %>%
   stack()
 
-#have a look at the raster stack1
+#have a look at the raster stack1..
 worldclimtemp
 # access the january layer
 worldclimtemp[[1]]
@@ -62,7 +62,7 @@ month <- c("Jan", "Feb", "Mar", "Apr", "May", "Jun",
 names(worldclimtemp) <- month
 worldclimtemp$Jan
 
-#youbolin da ben dan
+
 #3.5.4 Raster location
 site <- c("Brisbane", "Melbourne", "Perth", "Sydney", "Broome", "Darwin", "Orange", 
           "Bunbury", "Cairns", "Adelaide", "Gold Coast", "Canberra", "Newcastle", 
