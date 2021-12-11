@@ -51,7 +51,7 @@ listfiles
 worldclimtemp <- listfiles %>%
   stack()
 
-#have a look at the raster stack
+#have a look at the raster stack1
 worldclimtemp
 # access the january layer
 worldclimtemp[[1]]
