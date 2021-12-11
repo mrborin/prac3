@@ -45,7 +45,7 @@ listfiles<-dir_info(here("data","wc2.1_5m_tmin")) %>%
   dplyr::select(path)%>%
   pull()
 
-#have a look at the file names 
+#have a look at the file names 2
 listfiles
 
 worldclimtemp <- listfiles %>%
